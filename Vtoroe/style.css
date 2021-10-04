@@ -1,0 +1,160 @@
+body{
+  background-color: #ffffff;
+}
+.logo{
+  width: 300px;
+}
+.menu{
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.container{
+  padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.pol{
+  box-sizing: content-box;
+
+  margin-bottom: 20px;
+}
+.polkol{
+  box-sizing: content-box;
+
+  margin-bottom: 20px;
+}
+.polkol input{
+  box-sizing: content-box;
+  display: inline-block;
+}
+.polkol label{
+  box-sizing: content-box;
+  display: inline-block;
+}
+.polkol div{
+  box-sizing: content-box;
+  display: inline-block;
+}
+label{
+  font-size: 13px;
+    color: #5a6c77;
+    padding-bottom: 2px;
+}
+.lab{
+  font-size: 13px;
+    color: #5a6c77;
+    padding-bottom: 2px;
+    margin-bottom: 0px;
+}
+input{
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  height: 38px;
+  margin: 0;
+  padding: 0 4px;
+  border: 1px solid #CCD5DB;
+  border-radius: 2px;
+  background: #f8fafc;
+  outline: none;
+}
+select{
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  height: 38px;
+  margin: 0;
+  padding: 0 4px;
+  border: 1px solid #CCD5DB;
+  border-radius: 2px;
+  background: #f8fafc;
+  outline: none;
+}
+.reg{
+  max-width: 650px;
+  margin: auto;
+  margin-bottom: 60px;
+}
+.logs a{
+  margin-left: 60px;
+  color: #2b3446;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  text-decoration: none;
+}
+h3{
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 35px;
+  color: #363D41;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.logs{
+  box-sizing: content-box;
+  display: inline-block;
+
+}
+nav{
+
+  display: inline;
+
+
+}
+main{
+  box-sizing: content-box;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 3%;
+  margin-top: 100px;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: 'Raleway',sans-serif;
+}
+a{
+  font-size: 13px;
+    color: #5a6c77;
+    padding-bottom: 2px;
+    text-decoration: none;
+}
+.buttone input{
+  display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 2px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #15aaea;
+    transition: background-color .2s ease-in-out;
+    width: 100%;
+    padding: 0 24px;
+    white-space: nowrap;
+  }
+ .etashi input{
+  box-sizing: content-box;
+  display: inline-block;
+  width: 10%;
+ }
+ .buttonepod input{
+  display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 2px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #15aaea;
+    transition: background-color .2s ease-in-out;
+    width: 100%;
+    padding: 0 24px;
+    white-space: nowrap;
+  }
+  .buttonepod{
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-left: 600px;
+  }
