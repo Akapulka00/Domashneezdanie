@@ -36,7 +36,7 @@
             <div class="pol">
               <label for="rai">Выбирите район:</label>
               <select name="rai" required id="rai" >
-                <option value="NULL" select >Не имеет значения </option>
+                <option value="NULL" selected >Не имеет значения </option>
                 <option value="pok">Адмиралтейский район </option>
                 <option value="pok">Василеостровский район </option>
                 <option value="pok">Выборгский район </option>
@@ -97,14 +97,14 @@
         <input type="number" id="maxploch" name="maxploch" min="0" >
        </div>
        <label for="otdel">Выбирите наличие отделки</label>
-       <select id="otdel" name="otdel" required id="otdel">
-        <option value="NULL" select >Не имеет значения </option>
+       <select id="otdel" name="otdel" required >
+        <option value="NULL" selected >Не имеет значения </option>
         <option value="yesotdel">С отдклкой </option>
         <option value="nootdel" >Без отделки</option>
       </select>
       <label for="balkon">Выбирите наличие балкона</label>
-       <select id="balkon" name="balkon" required id="balkon">
-        <option value="NULL" select >Не имеет значения </option>
+       <select id="balkon" name="balkon" required >
+        <option value="NULL" selected >Не имеет значения </option>
         <option value="yesotdel">С балконом </option>
         <option value="nootdel" >Без балкона</option>
       </select>
@@ -128,16 +128,16 @@
 </div>
 <p class="lab">Введите минимальный и максимальный этаж</p>
 <div class="etashi">
-  <label for="">От</label>
- <input type="number" id="Etash" name="Etash[]" value="Etash" min="0">
- <label for="">До</label>
- <input type="number" id="Etash" name="Etash[]" value="Etash" min="0">
+  <label for="Etas1">От</label>
+ <input type="number" id="Etas1" name="Etashmin"  min="0">
+ <label for="Etas2">До</label>
+ <input type="number" id="Etas2" name="Etashmax"  min="0">
 </div>
 <div class="buttonepod">
   <input type="submit" name="buttonpod" value="Подобрать">
 </div>
-
-
+        </div>
+      </div>  
           </form>
           </div>
       </div>
