@@ -1,0 +1,120 @@
+ul.menu>li {
+  float: left;
+  position: relative;
+}
+ul.menu>li>a {
+  display: block;
+  color: #ff4500;
+  padding: 10px;
+  width: 90px;
+  text-decoration: none;
+  background-color: #ffa500;
+  border-bottom: 3px solid transparent;
+}
+ul.menu>li>a:hover{
+
+  border-bottom: 3px solid #ff4500;
+
+}
+ul.podmenu{
+  position: absolute;
+    width: 110px;
+    top: 37px;
+    left:0px;
+    display: none;
+    /* Цвет — белый. */
+    background-color: white;
+}
+ul.podmenu>li{
+  display: block;
+
+}
+ul.podmenu>li>a{
+  display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: #ff4500;
+    background-color: #ffa500;
+}
+ul.podmenu>li>a:hover{
+
+  text-decoration: underline;
+}
+ul.menu>li:hover>ul.podmenu{
+  display: block;
+  border-bottom: 3px solid #ff4500;
+
+}
+
+body {
+  margin:0px;
+  padding:0px;
+  font-size: 18px;
+}
+header{
+  background-color: #ffa500;
+}
+ul {
+  list-style: none;
+  display: block;
+  margin:0px;
+  padding:0px;
+}
+ul:after {
+  display: block;
+  float: none;
+  content: ' ';
+  clear: both;
+}
+.main{
+  max-width: 1200px;
+  margin: 0 15% auto;
+  text-align: center;
+}
+
+img{
+  max-width: 1200px;
+  width: 100%;
+  height: auto;
+  padding: 0.3%;
+  border: 1px solid silver;
+  border-radius: 5px;
+}
+.main p{
+  text-align: justify;
+  width: auto;
+}
+.main a{
+  display: inline-block;
+  padding: 10px;
+  background-color: #ffa500;
+  width: 99%;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 18pt;
+  color:#ea5e00;
+}
+.footer{
+  max-width: 1200px;
+  margin: 3% 15% auto;
+  text-align: center;
+}
+
+.footer a{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  border: 2px solid #ea5e00;
+  border-radius: 7px;
+  text-decoration: none;
+  color:#ea5e00;
+}
+.vib{
+  background-color: #ffa500;
+}
+body{
+  background: url(/img/fone.jpg) no-repeat;
+  background-attachment: fixed;
+
+}
