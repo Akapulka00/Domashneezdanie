@@ -1,21 +1,22 @@
 @import "flex-grid.css";
 
 body {
-  margin: 0;
+  margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 12pt;
+  max-width: 2000px;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 2000px;
 }
 .header{
   justify-content: space-around;
   align-items: normal;
 }
 .imglog{
-  padding-top: 30%;
+  padding-top: 3rem;
 height:auto;
 width: 100%;
 }
@@ -38,7 +39,7 @@ color: orange;
   color: red;
 }
 .contak{
-  padding-top: 30%;
+  padding-top: 3rem;
 }
 .tell{
   font-weight: bold;
@@ -48,15 +49,15 @@ a{
   text-decoration: none;
 }
 .box{
- padding-bottom: 1%;
+ padding-bottom: .5rem;
 }
 .nav a{
   background-color: #cebd6a9f;
-  padding: 2%;
+  padding: 1rem .5rem;
 }
 .nav a:hover{
   background-color: #deba04;
-  padding: 2%;
+  padding: 1rem;
 }
 .nav a{
 text-align: center;
@@ -99,4 +100,8 @@ footer div  div a:hover{
 }
 footer{
   padding-top: 2%;
+}
+.baner{
+  padding-top: 1rem;
+  text-align:center
 }
