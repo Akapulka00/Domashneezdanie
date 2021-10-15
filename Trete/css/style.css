@@ -70,6 +70,7 @@ ul:after {
   max-width: 1200px;
   margin: 0 15% auto;
   text-align: center;
+  width: auto;
 }
 
 img{
@@ -80,15 +81,15 @@ img{
   border: 1px solid silver;
   border-radius: 5px;
 }
+
 .main p{
   text-align: justify;
-  width: auto;
+  
 }
 .main a{
-  display: inline-block;
+  display: block;
   padding: 10px;
   background-color: #ffa500;
-  width: 99%;
   text-decoration: none;
   border-radius: 6px;
   font-size: 18pt;

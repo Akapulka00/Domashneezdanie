@@ -1,0 +1,172 @@
+@import "flex-grid.css";
+@import "style.css";
+
+.midle{
+    margin: 1% 3%;
+    display: grid;
+    grid-template-areas: 
+    "tu tu ch ru"
+    "eg eg ve ru"
+    "th bal gre ru";
+    grid-auto-columns: 1fr  1fr 1fr 1fr;
+    grid-auto-rows: 50vh 50vh 50vh; 
+    
+}
+.midle h3{
+    margin:0;
+}
+.imgru{
+    grid-area: ru;
+    padding: 1%;
+   
+}
+.imgru img{
+   width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.imgtu{
+    grid-area: tu;
+    padding: 1%;
+   
+}
+.imgtu img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;;
+}
+.imgch{
+    grid-area: ch;
+    padding: 1%;
+}
+.imgch img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.imgeg{
+    grid-area: eg;
+    padding: 1%;   
+} 
+.imgeg img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.imgve{
+    grid-area: ve;
+    padding: 1%;
+      
+}
+.imgve img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.imgth{
+    grid-area: th;
+    padding: 1%;
+        
+}
+.imgth img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.imgbal{
+    grid-area: bal;
+    padding: 1%;
+     
+}     
+.imgbal img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.imggre{
+    grid-area: gre;
+    padding: 1%;
+    
+}
+.imggre img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img{
+position: relative;
+}
+.midle h3{
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 10px;
+    color:rgb(134, 87, 0);
+}
+
+.midle h2{
+    position: absolute;
+    z-index: 1;
+    top: 15%;
+    right: 10px;
+    color:rgb(134, 87, 0);
+    
+}
+.form select
+{
+    display: inline-block;
+  font-size: 18px;
+  height: 38px;
+  margin: 0;
+  padding: 0 4px;
+  border: 1px solid #CCD5DB;
+  border-radius: 2px;
+  background: #f8fafc;
+  outline: none;
+}
+#otprav, #po
+{
+    display: inline-block;
+    font-size: 18px;
+    height: 38px;
+    width: 8%;
+    margin: 0;
+    padding: 0 4px;
+    border: 1px solid #CCD5DB;
+    border-radius: 2px;
+    background: #f8fafc;
+    outline: none;
+}
+#dnei1, #dnei2
+{
+    display: inline-block;
+    font-size: 18px;
+    height: 38px;
+    width: 5%;
+    margin: 0;
+    padding: 0 4px;
+    border: 1px solid #CCD5DB;
+    border-radius: 2px;
+    background: #f8fafc;
+    outline: none;
+}
+.form{
+    padding: 5px 5px;
+}
+.buttom{
+    display: inline-block;
+    font-size: 18px;
+    height: 38px;
+    margin: 0;
+    padding: 0 4px;
+    border: 1px solid #CCD5DB;
+    border-radius: 2px;
+    background: #f8fafc;
+    outline: none;
+    margin-left: 2%;
+}
+.form{
+    text-align: center;
+    background-color: #d3c168;
+}
