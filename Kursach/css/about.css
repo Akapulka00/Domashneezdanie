@@ -7,3 +7,18 @@ body{
 li{
   color:rgb(134, 87, 0);
 }
+@media (max-width: 750px) {
+    
+ 
+  .naheader{
+      flex-direction: column;
+  }
+  .contak{
+      display: none;
+  }
+  .box{
+      padding-left: 30%;
+      flex-direction: column;   
+  }
+
+}

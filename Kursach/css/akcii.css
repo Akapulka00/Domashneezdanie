@@ -1,0 +1,31 @@
+@import "flex-grid.css";
+@import "style.css";
+
+.cart img{
+   padding: 5px; 
+}
+.akcia{
+flex-wrap: wrap;
+}
+.cart img{
+   width: 100%;
+   height: auto;
+}
+.midle{
+    margin-top: 2rem;
+}
+@media (max-width: 750px) {
+    
+  
+   .naheader{
+       flex-direction: column;
+   }
+   .contak{
+       display: none;
+   }
+   .box{
+       padding-left: 30%;
+       flex-direction: column;   
+   }
+
+}

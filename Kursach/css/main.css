@@ -181,3 +181,45 @@ position: relative;
 li{
   color:rgb(134, 87, 0);
 }
+
+.img {
+    overflow: hidden;
+}
+.img img:hover{
+    
+    transform: scale(1.8);
+    transition:transform 20s linear ;    
+}
+
+@media (max-width: 750px) {
+    
+    .midle{
+        margin: 1% 3%;
+        display: grid;
+        grid-template-areas:
+        "tu ch "
+        "eg ch "
+        "ve th "
+        " bal gre"
+        "ru ru";
+        grid-auto-columns: 1fr  1fr ;
+        grid-auto-rows: 50vh 50vh 50vh 50vh 50vh;
+    
+    }
+    .naheader{
+        flex-direction: column;
+    }
+    .contak{
+        display: none;
+    }
+    .box{
+        padding-left: 30%;
+        flex-direction: column;   
+    }
+    .log{
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+}
